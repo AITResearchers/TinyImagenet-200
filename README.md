@@ -7,8 +7,10 @@ Tiny Imagenet has 200 classes. Each class has 500 training images, 50 validation
 [Download Tiny Imagenet Dataset here](http://cs231n.stanford.edu/tiny-imagenet-200.zip "Download Tiny Imagenet Dataset")
 
 Some of the challenging samples for prediction are
+<p align="center">
+  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true">
+</p>
 
-![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true,align="center")
 
 The image on the left must be chihuahua which is very similar to teddy bear and the image on right must be football which is very challenging for the network to predict.
 
@@ -21,9 +23,15 @@ The flowchart of the architecture can be found in the repository as PNG file.
 The model is written in Keras framework and is trained from scratch using the Google colab GPU.
 
 I have been able to achieve an accuracy of 50.9 % validation accuracy with a loss of 1.109 with in 100 epochs without augmentation.
+<p align="center">
+  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true">
+</p>
 
-![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true,align="center")Training and validation loss
-            ![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true,align="center")Training and validation Accuracy
+Training and validation loss
+<p align="center">
+  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true">
+</p>
+Training and validation Accuracy
 
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
 
