@@ -8,7 +8,7 @@ Tiny Imagenet has 200 classes. Each class has 500 training images, 50 validation
 
 Some of the challenging samples for prediction are
 <p align="center">
-  <img width="100" height="100" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true">
+  <img width="100" height="200" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true">
 </p>
 
 
@@ -26,12 +26,11 @@ I have been able to achieve an accuracy of 50.9 % validation accuracy with a los
 <p align="center">
   <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true">
 </p>
-
-                        Training and validation loss
+<center>Training and validation loss</center>
 <p align="center">
   <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true">
 </p>
-                       Training and validation Accuracy
+<center>Training and validation Accuracy</center>
 
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
 
