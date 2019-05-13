@@ -26,6 +26,7 @@ I have been able to achieve an accuracy of 50.9 % validation accuracy with a los
 Training and validation loss
 ![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true)
 Training and validation Accuracy
+
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
 
 This could be a starter code for newbies to experiment with. Techniques like CylicLearningRate, Image augmentation, Class weight initialization based on bad predictions could be made. 
