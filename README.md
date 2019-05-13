@@ -8,12 +8,11 @@ Tiny Imagenet has 200 classes. Each class has 500 training images, 50 validation
 
 Some of the challenging samples for prediction are
 <p align="center">
-  <img width="100" height="200" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true">
+  <img width="150" height="100" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true">
 </p>
 
 
 The image on the left must be chihuahua which is very similar to teddy bear and the image on right must be football which is very challenging for the network to predict.
-
 
 
 I have tried to develop a wider architecture by increasing the number of channels exponentially with each layer and adding a bottleneck after some defined number of layers. I have also encapsulated the concept of Residual architecture which concatenates predominant features at some specific layer before some defined number of layers. 
@@ -25,12 +24,13 @@ The model is written in Keras framework and is trained from scratch using the Go
 I have been able to achieve an accuracy of 50.9 % validation accuracy with a loss of 1.109 with in 100 epochs without augmentation.
 <p align="center">
   <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true">
+
+Training and validation loss
 </p>
-<center>Training and validation loss</center>
 <p align="center">
   <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true">
-</p>
-<center>Training and validation Accuracy</center>
+
+Training and validation Accuracy</p>
 
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
 
