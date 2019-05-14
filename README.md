@@ -7,12 +7,11 @@ Tiny Imagenet has 200 classes. Each class has 500 training images, 50 validation
 [Download Tiny Imagenet Dataset here](http://cs231n.stanford.edu/tiny-imagenet-200.zip "Download Tiny Imagenet Dataset")
 
 Some of the challenging samples for prediction are
-<p align="center">
-  <img width="150" height="100" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true">
-</p>
 
+![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/Capture.PNG?raw=true)
 
 The image on the left must be chihuahua which is very similar to teddy bear and the image on right must be football which is very challenging for the network to predict.
+
 
 
 I have tried to develop a wider architecture by increasing the number of channels exponentially with each layer and adding a bottleneck after some defined number of layers. I have also encapsulated the concept of Residual architecture which concatenates predominant features at some specific layer before some defined number of layers. 
@@ -22,17 +21,16 @@ The flowchart of the architecture can be found in the repository as PNG file.
 The model is written in Keras framework and is trained from scratch using the Google colab GPU.
 
 I have been able to achieve an accuracy of 50.9 % validation accuracy with a loss of 1.109 with in 100 epochs without augmentation.
-<p align="center">
-  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true>
-</p>
-<p align="center">
-  <b>Training and validation loss</b>
-</p>
-<p align="center">
-  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true></p>
-<p align="center">
-  <b>Training and validation Accuracy</b>
-</p>
+
+![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true,align="center")
+
+
+
+​                                                                       **Training and testing loss**
+
+![](https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true)
+
+​                                                        **Training accuracy and validation accuracy**
 
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
 
