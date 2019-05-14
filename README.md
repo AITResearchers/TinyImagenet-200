@@ -23,14 +23,15 @@ The model is written in Keras framework and is trained from scratch using the Go
 
 I have been able to achieve an accuracy of 50.9 % validation accuracy with a loss of 1.109 with in 100 epochs without augmentation.
 <p align="center">
-  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/training%20and%20test%20loss.png?raw=true">
-
-Training and validation loss
+  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet200/blob/master/training%20and%20test%20loss.png?raw=true">
 </p>
 <p align="center">
-  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true">
-<p>
-  <Training and validation Accuracy>
+  <b>Training and validation loss</b>
+</p>
+<p align="center">
+  <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true></p>
+<p align="center">
+  <b>Training and validation Accuracy</b>
 </p>
 
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
