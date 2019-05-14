@@ -29,8 +29,9 @@ Training and validation loss
 </p>
 <p align="center">
   <img width="460" height="300" src="https://github.com/FaizalSandanampusi/TinyImagenet-200/blob/master/train_and_val_acc.png?raw=true">
-
-Training and validation Accuracy</p>
+<p>
+  <Training and validation Accuracy>
+</p>
 
 I have uploaded the ipython notebook in the repository which can be used for further improvement.
 
